@@ -14,8 +14,8 @@ function setup() {
 function draw() {
 
   for (var i = 0; i < width; i++) {
-    var w = random(600);
-    var h = random(600);
+    var w = random(500);
+    var h = random(500);
     stroke (h + random (100), s + random (100), b + random (100), 50);
     line( w, 0, h*2, w*2);
     
